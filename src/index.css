@@ -1,0 +1,13 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.App {
+    height: 100vh;
+    width: 100%;
+
+    color: white;
+
+    background-color: rgb(41, 41, 41);
+}
