@@ -1,11 +1,13 @@
+import Navigation from './components/navigation/Navigation'
 import './index.css'
 
 function App() {
 
   return (
-    <div className="App">
+    <section className='App'>
+        <Navigation />
 
-    </div>
+    </section>
   )
 }
 
