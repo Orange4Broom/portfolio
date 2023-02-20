@@ -6,7 +6,6 @@ function App() {
   return (
     <section className='App'>
         <Navigation />
-
     </section>
   )
 }
