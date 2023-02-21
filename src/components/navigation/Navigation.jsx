@@ -1,6 +1,7 @@
-import { Link } from 'react-router-dom';
-import './navigation.css';
 import Icon from '../icon/Icon';
+import { Link } from 'react-router-dom';
+
+import './navigation.css';
 
 function Navigation() {
     return (
@@ -10,7 +11,7 @@ function Navigation() {
                 <ul>
                     <li className='show'><Link to='/'>Home </Link></li>
                     <li className='show'><Link to='About'>About </Link></li>
-                    <li className='show'><a href="#">Contatct</a></li>
+                    <li className='show'><Link to='Contact'>Contact </Link></li>
 
                     <li className='hidden'><a href="#"><Icon name='bars' type='fas' /></a></li>
                 </ul>
