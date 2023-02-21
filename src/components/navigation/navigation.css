@@ -58,7 +58,7 @@ li::after {
     
     position: absolute;
     width: 0%;
-    transition: all ease-in-out 250ms;
+    transition: all ease-in-out 200ms;
 }
 
 li:hover::after {
