@@ -15,7 +15,6 @@
     cursor: pointer;
     background-color: rgba(255, 255, 255, 0.918);
     scale: 105%;
-    transition: 0.4s;
     color: rgba(0, 0, 0, 0.76);
 }
 
@@ -26,5 +25,11 @@
 @media (max-width: 600px) {
     .next-button {
         margin-top: 300px;
+    }
+}
+
+@media (max-height: 650px) {
+    .next-button {
+        margin-top: 0;
     }
 }

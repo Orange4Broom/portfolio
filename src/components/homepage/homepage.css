@@ -26,8 +26,10 @@
     font-size: 140px;
     text-align: left;
 
-   width: 100%;
-   max-width: 600px;
+    font-weight: 600;
+
+    width: 100%;
+    max-width: 600px;
 }
 
 .padding-text {
@@ -66,5 +68,27 @@
         text-align: center;
 
         margin-right: 0px;
+    }
+}
+
+@media (max-height: 650px) {
+    .content-text {
+        align-items: end;
+        padding-right: 50;
+    }
+
+    .name-header {
+        font-size: 50px;
+        margin-top: 0;
+        text-align: center;
+    }
+
+    .padding-text {
+        margin-left: 0px;
+    }
+
+    .info-paragraf {
+        text-align: right;
+        max-width: 400px;
     }
 }

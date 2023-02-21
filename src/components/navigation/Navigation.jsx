@@ -7,10 +7,11 @@ function Navigation() {
             <h1 className='logo'>LOGO</h1>   
             <div className='links'>
                 <ul>
-                    <a href="#" className='show'><Icon name='home' type='fas' /><li>Home</li></a>
-                    <a href="#" className='show'><Icon name='address-card' type='fas' /><li>About</li></a>
-                    <a href="#" className='show'><Icon name='share' type='fas' /><li>Contact</li></a>
-                    <a href="#" className='hidden'><Icon name='bars' type='fas' /></a>
+                    <li className='show'><a href="#">Home</a></li>
+                    <li className='show'><a href="#">About</a></li>
+                    <li className='show'><a href="#">Contatct</a></li>
+
+                    <li className='hidden'><a href="#"><Icon name='bars' type='fas' /></a></li>
                 </ul>
             </div>
         </div>

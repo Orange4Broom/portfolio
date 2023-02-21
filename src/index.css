@@ -33,3 +33,9 @@ body {
         background:  url('/images/nature.jpg'), linear-gradient(to bottom, #ffffff, #b9b9b9, #777777, #3b3b3b, #000000);
     }
 }
+
+@media (max-height: 650px) {
+    .App {
+        overflow-y: auto;
+    }
+}
