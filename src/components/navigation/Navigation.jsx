@@ -9,7 +9,7 @@ function Navigation() {
             <div className='links'>
                 <ul>
                     <li className='show'><Link to='/'>Home </Link></li>
-                    <li className='show'><Link to='About'>Home </Link></li>
+                    <li className='show'><Link to='About'>About </Link></li>
                     <li className='show'><a href="#">Contatct</a></li>
 
                     <li className='hidden'><a href="#"><Icon name='bars' type='fas' /></a></li>

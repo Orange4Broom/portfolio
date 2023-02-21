@@ -1,6 +1,6 @@
 import { Routes, Route } from 'react-router-dom';
-import Navigation from './components/navigation/Navigation'
-import Homepage from './components/homepage/HomePage'
+import About from './components/pages/About';
+import Home from './components/pages/Home';
 import './index.css'
 
 function App() {
@@ -8,21 +8,9 @@ function App() {
   return (
     <>
     <Routes>
-      <Route path='/'>
-        <section className='Home'>
-            <Navigation />
-            <Homepage />
-        </section>
-      </Route>
+      <Route path='/' element={<Home />} />
+      <Route path='About' element={<About />} />
     </Routes>
-
-    <Routes path='About'>
-     <section className='About'></section>
-    </Routes>
-      
-
-          
-
     </>
   )
 }
