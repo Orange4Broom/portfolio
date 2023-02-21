@@ -1,3 +1,4 @@
+import { Link } from 'react-router-dom';
 import './navigation.css';
 import Icon from '../icon/Icon';
 
@@ -7,8 +8,8 @@ function Navigation() {
             <h1 className='logo'>LOGO</h1>   
             <div className='links'>
                 <ul>
-                    <li className='show'><a href="#">Home</a></li>
-                    <li className='show'><a href="#">About</a></li>
+                    <li className='show'><Link to='/'>Home </Link></li>
+                    <li className='show'><Link to='About'>Home </Link></li>
                     <li className='show'><a href="#">Contatct</a></li>
 
                     <li className='hidden'><a href="#"><Icon name='bars' type='fas' /></a></li>
