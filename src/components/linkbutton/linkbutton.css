@@ -20,7 +20,7 @@
 }
 
 .next-button:active {
-
+    scale: 95%;
 }
 
 @media (max-width: 600px) {
