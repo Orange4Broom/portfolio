@@ -1,0 +1,16 @@
+.About {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+
+    height: 100vh;
+    width: 100%;
+
+    color: white;
+
+    background: url('/images/nature.jpg'), rgba(0, 0, 0, 0.822);
+    background-blend-mode: multiply;
+    background-position: center;
+    background-size: cover;
+}

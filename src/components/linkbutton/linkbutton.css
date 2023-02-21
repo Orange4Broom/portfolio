@@ -2,7 +2,7 @@
     height: 50px;
     width: 160px;
 
-    margin-top: 50px;
+    margin-top: 1%;
     
     border: 2px solid rgba(255, 255, 255, 0.897);
 
@@ -15,8 +15,7 @@
     cursor: pointer;
     background-color: rgba(255, 255, 255, 0.918);
     scale: 105%;
-    transition: 0.4s;
-    color: rgba(0, 0, 0, 0.76);
+    color: rgba(0, 0, 0, 0.836);
 }
 
 .next-button:active {
@@ -26,5 +25,11 @@
 @media (max-width: 600px) {
     .next-button {
         margin-top: 300px;
+    }
+}
+
+@media (max-height: 650px) {
+    .next-button {
+        margin-top: 0;
     }
 }
