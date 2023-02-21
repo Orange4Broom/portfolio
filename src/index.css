@@ -4,12 +4,16 @@ body {
     margin: 0;
     padding: 0;
 
+    overflow: hidden;
+
     font-family: 'Roboto', sans-serif;
 }
 
 .App {
     display: flex;
-    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
 
     height: 100vh;
     width: 100%;
@@ -17,8 +21,15 @@ body {
     color: white;
 
     
-    background: url('../public/images/nature.jpg') rgba(0, 0, 0, 0.733);
+    background: url('../public/images/nature.jpg'), linear-gradient(to right, #0000003d, #b9b9b9, #777777, #202020, #000000);
     background-blend-mode: multiply;
     background-position: center;
     background-size: cover;
+}
+
+@media (max-width: 600px) {
+    .App {
+        overflow: hidden;
+        background:  url('../public/images/nature.jpg'), linear-gradient(to bottom, #ffffff, #b9b9b9, #777777, #3b3b3b, #000000);
+    }
 }

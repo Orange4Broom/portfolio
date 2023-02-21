@@ -6,17 +6,18 @@
 
     height: 80px;
     width: 100%;
-
-    padding: 0 40px;
 }
 
 .logo {
     font-size: 30px;
+    margin-left: 40px;
 }
 
 .links {
     max-width: 400px;
     width: 100%;
+
+    margin-right: 40px;
 }
 
 a {
@@ -48,6 +49,11 @@ ul {
 }
 
 @media (max-width: 600px) {
+    .logo {
+        font-weight: 400;
+        font-size: 26px;
+    }
+
     .show {
         display: none;
     }
