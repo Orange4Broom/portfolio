@@ -21,7 +21,7 @@ body {
     color: white;
 
     
-    background: url('../public/images/nature.jpg'), linear-gradient(to right, #0000003d, #b9b9b9, #777777, #202020, #000000);
+    background: url('/images/nature.jpg'), linear-gradient(to right, #0000003d, #b9b9b9, #777777, #202020, #000000);
     background-blend-mode: multiply;
     background-position: center;
     background-size: cover;
@@ -30,6 +30,6 @@ body {
 @media (max-width: 600px) {
     .App {
         overflow: hidden;
-        background:  url('../public/images/nature.jpg'), linear-gradient(to bottom, #ffffff, #b9b9b9, #777777, #3b3b3b, #000000);
+        background:  url('/images/nature.jpg'), linear-gradient(to bottom, #ffffff, #b9b9b9, #777777, #3b3b3b, #000000);
     }
 }
