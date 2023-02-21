@@ -1,9 +1,9 @@
 import AOS from 'aos';
 import LinkButton from '../linkbutton/LinkButton';
 import 'aos/dist/aos.css';
-import './homepage.css';
+import './startpage.css';
 
-function Homepage() {
+function StartPage() {
     AOS.init();
       
     return (
@@ -19,4 +19,4 @@ function Homepage() {
     )
 }
 
-export default Homepage;
+export default StartPage;
