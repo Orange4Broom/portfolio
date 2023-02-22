@@ -11,6 +11,7 @@
 .logo {
     font-size: 30px;
     margin-left: 40px;
+    color: rgba(255, 255, 255, 0.925);
 }
 
 .links {
@@ -22,7 +23,7 @@
 
 a {
     text-decoration: none;
-    color: rgba(255, 255, 255, 0.863);
+    color: rgba(255, 255, 255, 0.616);
 
     font-size: 15px;
 }
@@ -49,7 +50,7 @@ li:hover {
     color: rgba(255, 255, 255, 1);
 }
 
-li::after {
+.activeline::after {
     content: "";
     display: block;
     height: 2px;
@@ -61,7 +62,7 @@ li::after {
     transition: all ease-in-out 200ms;
 }
 
-li:hover::after {
+.activeline:hover::after {
     width: 100%;
   }
 
@@ -69,7 +70,70 @@ li:hover::after {
     display: none;
 }
 
+.closed {
+    position: absolute;
+    right: -60%;
+}
+
 @media (max-width: 600px) {
+
+    .menu-button {
+        background-color: transparent;
+        border: none;
+        color: rgba(255, 255, 255, 0.7);
+
+        font-size: 20px;
+        z-index: 6;
+    }
+
+    .menu-button:hover {
+        color: rgba(255, 255, 255, 1);
+    }
+
+    .menu {
+        position: absolute;
+
+        display: flex;
+        flex-direction: column;
+        align-items: start;
+        justify-content: start;
+
+        height: 100vh;
+        width: 60%;
+        right: 0;
+
+        padding-top: 100px;
+        transition: 0.4s;
+
+        background-color: rgba(0, 0, 0, 0.849);
+
+        z-index: 5;
+    }
+
+    .menu ul {
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+    }
+
+    .menu ul li a {
+        display: flex;
+        flex-direction: row;
+        gap: 30px;
+
+        color: white;
+    }
+
+    .menu ul li a:hover {
+        scale: 105%;
+    }
+
+    .closed {
+        right: -60%;
+    }
+
+
+
     .logo {
         font-weight: 400;
         font-size: 26px;
