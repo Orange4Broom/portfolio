@@ -82,12 +82,30 @@ li:hover {
         border: none;
         color: rgba(255, 255, 255, 0.7);
 
+        cursor: pointer;
+
         font-size: 20px;
-        z-index: 6;
     }
 
     .menu-button:hover {
         color: rgba(255, 255, 255, 1);
+    }
+
+    .close-button {
+        margin-left: 20px;
+        border: none; 
+
+        color: white;
+        font-size: 20px;
+
+        cursor: pointer;
+
+        background-color: transparent;
+    }
+
+    .close-button:hover {
+        color: rgba(255, 255, 255, 1);
+        scale: 115%;
     }
 
     .menu {
@@ -98,11 +116,13 @@ li:hover {
         align-items: start;
         justify-content: start;
 
+        gap: 80px;
+
         height: 100vh;
         width: 60%;
         right: 0;
 
-        padding-top: 100px;
+        padding-top: 20px;
         transition: 0.4s;
 
         background-color: rgba(0, 0, 0, 0.849);
@@ -121,11 +141,13 @@ li:hover {
         flex-direction: row;
         gap: 30px;
 
+        transition: 0.3s;
+
         color: white;
     }
 
     .menu ul li a:hover {
-        scale: 105%;
+        scale: 110%;
     }
 
     .closed {

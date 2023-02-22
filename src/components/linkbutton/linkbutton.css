@@ -23,9 +23,7 @@
 }
 
 @media (max-width: 600px) {
-    .next-button {
-        margin-top: 300px;
-    }
+   
 }
 
 @media (max-height: 650px) {
