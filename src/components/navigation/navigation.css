@@ -14,6 +14,10 @@
     color: rgba(255, 255, 255, 0.925);
 }
 
+.logo-image {
+    height: 50px;
+}
+
 .links {
     max-width: 400px;
     width: 100%;
@@ -76,6 +80,10 @@ li:hover {
 }
 
 @media (max-width: 600px) {
+
+    .logo-image {
+        height: 35px;
+    }
 
     .menu-button {
         background-color: transparent;
