@@ -22,7 +22,7 @@ function Navigation() {
                     <li className='show activeline'><Link to='/About'>About </Link></li>
                     <li className='show activeline'><Link to='/Contact'>Contact </Link></li>
 
-                    <li className='hidden'><button className='menu-button' onClick={toggleMenu}><Icon name='bars' type='fas' /></button></li>
+                    <li className={`hidden ${menuIsClosed ? '' : 'closed'}`}><button className='menu-button' onClick={toggleMenu}><Icon name='bars' type='fas' /></button></li>
                 </ul>
             </div>
         </div>
