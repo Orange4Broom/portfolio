@@ -82,6 +82,8 @@ li:hover {
         border: none;
         color: rgba(255, 255, 255, 0.7);
 
+        cursor: pointer;
+
         font-size: 20px;
     }
 
@@ -96,7 +98,14 @@ li:hover {
         color: white;
         font-size: 20px;
 
+        cursor: pointer;
+
         background-color: transparent;
+    }
+
+    .close-button:hover {
+        color: rgba(255, 255, 255, 1);
+        scale: 115%;
     }
 
     .menu {
@@ -132,11 +141,13 @@ li:hover {
         flex-direction: row;
         gap: 30px;
 
+        transition: 0.3s;
+
         color: white;
     }
 
     .menu ul li a:hover {
-        scale: 105%;
+        scale: 110%;
     }
 
     .closed {
