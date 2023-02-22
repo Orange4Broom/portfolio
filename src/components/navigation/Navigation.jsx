@@ -15,7 +15,7 @@ function Navigation() {
     return (
         <>
         <div className="Navigation">
-            <h1><Link className='logo' to='/'>LOGO</Link></h1>   
+            <h1><Link className='logo' to='/'><img className='logo-image' src="/images/logo-new.svg" alt="Logo" /></Link></h1>   
             <div className='links'>
                 <ul>
                     <li className='show activeline'><Link to='/'>Home </Link></li>
