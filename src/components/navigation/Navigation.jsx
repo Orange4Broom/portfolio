@@ -27,6 +27,7 @@ function Navigation() {
             </div>
         </div>
         <div className={`menu ${menuIsClosed ? 'closed' : ''}`}>
+            <button onClick={toggleMenu}><Icon name='xmark' type='fas' /></button>
             <ul>
                     <li><Link to='/'><Icon name='artstation' type='fab' /> Home </Link></li>
                     <li><Link to='/About'><Icon name='terminal' type='fas' />About </Link></li>
