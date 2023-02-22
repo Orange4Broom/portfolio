@@ -19,8 +19,8 @@ function Navigation() {
             <div className='links'>
                 <ul>
                     <li className='show activeline'><Link to='/'>Home </Link></li>
-                    <li className='show activeline'><Link to='/About'>About </Link></li>
-                    <li className='show activeline'><Link to='/Contact'>Contact </Link></li>
+                    <li className='show activeline'><Link to='/about'>About </Link></li>
+                    <li className='show activeline'><Link to='/contact'>Contact </Link></li>
 
                     <li className={`hidden ${menuIsClosed ? '' : 'closed'}`}><button className='menu-button' onClick={toggleMenu}><Icon name='bars' type='fas' /></button></li>
                 </ul>
@@ -30,8 +30,8 @@ function Navigation() {
             <button className='close-button' onClick={toggleMenu}><Icon name='xmark' type='fas' /></button>
             <ul>
                     <li><Link to='/'><Icon name='artstation' type='fab' /> Home </Link></li>
-                    <li><Link to='/About'><Icon name='terminal' type='fas' />About </Link></li>
-                    <li><Link to='/Contact'><Icon name='signal' type='fas' />Contact </Link></li>
+                    <li><Link to='/about'><Icon name='terminal' type='fas' />About </Link></li>
+                    <li><Link to='/contact'><Icon name='signal' type='fas' />Contact </Link></li>
             </ul>
         </div>
         </>
