@@ -9,9 +9,10 @@
 }
 
 .logo {
+    height: 50px;
+    width: auto;
     font-size: 30px;
     margin-left: 40px;
-    color: rgba(255, 255, 255, 0.925);
 }
 
 .logo-image {
@@ -40,6 +41,7 @@ ul {
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
+    align-items: end;
 
     list-style: none;
     color: white;
