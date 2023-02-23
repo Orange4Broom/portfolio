@@ -67,3 +67,9 @@
     font-size: 16px;
     text-align: center;
 }
+
+@media (max-width: 600px) {
+    .contact-links a {
+        font-size: 50px;
+    }
+}
