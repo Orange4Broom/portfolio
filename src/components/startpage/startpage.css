@@ -55,7 +55,7 @@
     margin-top: 150px;
 }
 
-@media (max-width: 600px) {
+@media (max-width: 650px) {
 
     .content-text {
         align-items: center;
@@ -85,14 +85,14 @@
     }
 }
 
-@media (max-height: 650px) {
+@media (max-height: 850px) {
     .content-text {
-        align-items: end;
+        align-items: center;
         padding-right: 50;
     }
 
     .name-header {
-        font-size: 50px;
+        font-size: 90px;
         margin-top: 0;
         text-align: center;
     }
@@ -102,7 +102,12 @@
     }
 
     .info-paragraf {
-        text-align: right;
+        text-align: center;
         max-width: 400px;
+        margin: 0;
+    }
+
+    .button-div {
+        margin-top: 100px;
     }
 }
