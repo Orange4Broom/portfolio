@@ -111,6 +111,24 @@
     }
 
     .button-div {
-        margin-top: 120px;
+        margin-top: 350px;
+    }
+}
+
+@media (max-height: 720px) {
+    .button-div {
+        margin-top: 250px;
+    }
+}
+
+@media (max-height: 620px) {
+    .button-div {
+        margin-top: 150px;
+    }
+}
+
+@media (max-height: 520px) {
+    .button-div {
+        margin-top: 50px;
     }
 }
