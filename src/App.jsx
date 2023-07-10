@@ -1,9 +1,13 @@
+import Navigation from "./components/navigation/Navigation"
+
 function App() {
 
   return (
-    <div>
-      <p>Bruh</p>
-    </div>
+    <>
+    <section className="hero-section">
+      <Navigation />
+    </section>
+    </>
   )
 }
 
