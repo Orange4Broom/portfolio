@@ -22,6 +22,8 @@ function Navigation() {
 
   const navigationStyle = {
     backgroundColor: scrolled ? 'rgba(0, 0, 0, 0.57)' : 'transparent',
+    borderBottom: scrolled ? '1px solid rgba(255, 255, 255, 0.2)' : 'none',
+    backdropFilter: scrolled ? 'blur(24px)' : 'none',
     transition: 'background-color 0.4s ease',
   };
 
